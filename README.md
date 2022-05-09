@@ -66,6 +66,12 @@ After you're done, on the right of the menubar you'll find an accept button. Cli
 The tkinter management app isn't included in the container. You can download it separately with git.
 ```sh
 git clone https://github.com/object-Object-cms/cms-management
+cd cms-management
+```
+
+Then install requirements
+```sh
+pip3 install -U -r requirements.txt
 ```
 
 Run it with
