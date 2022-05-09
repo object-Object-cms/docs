@@ -22,7 +22,7 @@ curl -LO https://raw.githubusercontent.com/object-Object-cms/docs/master/data.db
 ```
 2. Pull the container
 ```sh
-docker pull ghcr.io/object-object-cms/cms-bundle@latest
+docker pull ghcr.io/object-object-cms/cms-bundle:latest
 ```
 3. Start the container
 ```sh
