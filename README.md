@@ -20,13 +20,9 @@ Make sure to install Docker Engine, **NOT** Docker Desktop.
 ```sh
 curl -LO https://raw.githubusercontent.com/object-Object-cms/docs/master/data.db
 ```
-2. Pull the container
+2. Pull and start the container
 ```sh
-docker pull ghcr.io/object-object-cms/cms-bundle:latest
-```
-3. Start the container
-```sh
-docker run -it --rm --name cms-instance -p 1234:1234 -v ./data.db:/usr/src/app/data.db cms-bundle
+docker run -it --rm --name cms-instance -p 1234:1234 -v $(pwd)/data.db:/usr/src/app/data.db ghcr.io/object-object-cms/cms-bundle:latest
 ```
 
 The server should now be running on port 1234, you can proceed to the [Usage guide](USAGE.md)
