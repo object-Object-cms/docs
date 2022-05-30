@@ -25,7 +25,7 @@ curl -LO https://raw.githubusercontent.com/object-Object-cms/docs/master/data.db
 docker run -it --rm --name cms-instance -p 1234:1234 -v $(pwd)/data.db:/usr/src/app/data.db ghcr.io/object-object-cms/cms-bundle:latest
 ```
 
-The server should now be running on port 1234, you can proceed to the [Usage guide](USAGE.md)
+The server should now be running on port 1234, you can proceed to the [Usage guide](#usage)
 
 ## Usage
 
